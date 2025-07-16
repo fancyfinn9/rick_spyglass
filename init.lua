@@ -57,7 +57,7 @@ local function add_scope(player)
 		spyglass_rick[player] = player:hud_add({
 			[mcl_vars.hud_type_field] = "image",
 			position = {x = 0.5, y = 0.5},
-			scale = {x = 2, y = 2},
+			scale = {x = 1.5, y = 1.5},
 			text = "rick_spyglass_rick.png^[verticalframe:28:1",
 		})
 		spyglass_rick_state[player] = 1
